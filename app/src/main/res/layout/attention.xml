@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="관심글"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:textColor="#ff0000"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:id="@+id/textView"
+        android:paddingBottom="10dp"
+        android:text="다시 해보고 싶은 테스트들이 저장된 곳입니다."/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        android:background="#8C8C8C"/>
+</LinearLayout>

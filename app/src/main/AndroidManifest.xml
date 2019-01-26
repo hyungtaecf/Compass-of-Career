@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.coc_project">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/coc_icon"
+        android:label="CoC"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".start_screen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AppInfo" />
+        <activity android:name=".MessageBoard" />
+        <activity android:name=".Attention" />
+        <activity android:name=".Carrer" />
+        <activity android:name=".Inquiry" />
+        <activity android:name=".Notice" />
+        <activity android:name=".Test" />
+        <activity android:name=".preddy_test" />
+        <activity android:name=".preddy_test2" />
+        <activity android:name=".preddy_test3" />
+        <activity android:name=".ListDetail"/>
+
+
+    </application>
+
+</manifest>
