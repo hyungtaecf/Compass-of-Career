@@ -47,5 +47,7 @@
 - 진로 적성 검사 문항이 공개 된 것이 많지 않아 자료 수집에 있어 어려움을 겪음
 - 우리 어플만의 특이점에 대해서 만들어내지 못함 
 
+## Skills
 
-
+- I learned through this project and through the Open Source Class how to do teamwork on Github and how to work with open source
+- Basics of Android Studio and Java
